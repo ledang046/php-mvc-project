@@ -1,0 +1,18 @@
+{
+    "name": "admin/mvc",
+    "description": "Aht-projet",
+    "authors": [
+        {
+            "name": "dang",
+            "email": "ledang046@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload": {
+        "psr-4": {
+            "MVC\\": "src/"
+        }
+    },
+    "require": {}
+
+}
