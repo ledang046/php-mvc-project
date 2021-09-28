@@ -28,8 +28,9 @@
 
     <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
+            <li style="display:flex" class="nav-item active">
                 <a class="nav-link" href="/mvc/Tasks/index">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/mvc/Sinhvien/index">SinhVien <span class="sr-only"></span></a>
             </li>
         </ul>
     </div>

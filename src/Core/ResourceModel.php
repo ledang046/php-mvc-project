@@ -37,7 +37,7 @@ class ResourceModel implements ResourceModelInterface
 
     public function save($model)
     {
-        $arrayModel = ($this->model)->getPropertise($model);
+        $arrayModel = $model->getPropertise();
         
         $id = $arrayModel[$this->id];
 
